@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "532653013252",
+    "project_id": "plant-project-202520262027",
+    "storage_bucket": "plant-project-202520262027.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532653013252:android:4f9279d667c81bf10c3851",
+        "android_client_info": {
+          "package_name": "com.example.flora_mate_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532653013252-g0jvdr15uqjbv6ootbg427qbss3f43sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDITD13iVcntlithBwhnMNJKg-sOE7XtfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532653013252-g0jvdr15uqjbv6ootbg427qbss3f43sn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "532653013252-akkrno535jroasm9mlu2726bmdbh1urs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.plantsApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532653013252:android:e33df495417f17e20c3851",
+        "android_client_info": {
+          "package_name": "com.example.plants_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532653013252-bl2ihvnlu53l0rtl7cq53lhkottd3mga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.plants_app",
+            "certificate_hash": "d1e222e209529795f20582fd0857d89415f357da"
+          }
+        },
+        {
+          "client_id": "532653013252-g0jvdr15uqjbv6ootbg427qbss3f43sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDITD13iVcntlithBwhnMNJKg-sOE7XtfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532653013252-g0jvdr15uqjbv6ootbg427qbss3f43sn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "532653013252-akkrno535jroasm9mlu2726bmdbh1urs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.plantsApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
