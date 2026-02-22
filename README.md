@@ -1,16 +1,117 @@
-# flora_mate_app
+# 🌿 FloraMate – Мобилна апликација за грижа за растенија 🌿
 
-A new Flutter project.
+## Опис на апликацијата
 
-## Getting Started
+FloraMate е мобилна апликација развиена со Flutter која им овозможува на корисниците да пребаруваат растенија, да ги зачувуваат како омилени и да креираат потсетници за нивна нега.
 
-This project is a starting point for a Flutter application.
+Апликацијата користи Firebase за автентикација, база на податоци и push нотификации, како и надворешен REST API за податоци за растенија.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Главни функционалности
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Аутентикација
+- Регистрација на корисник
+- Најава со email и password
+- Одјава
+- Валидација на податоци
+- Автоматско најавување ако корисникот веќе е логираn
+
+## Преглед на растенија
+- Вчитување растенија од REST API
+- Grid приказ на растенија
+- Пребарување по:
+    - Common name
+    - Latin name
+- Детален приказ за секое растение
+
+## Категории
+- Приказ на сите категории
+- Филтрирање растенија според категорија
+- Пребарување во рамки на категорија
+
+## Омилени растенија
+- Додавање во омилени
+- Отстранување од омилени
+- Чување во Firestore по корисник
+- Посебна страна со сите омилени растенија
+
+## Календар и потсетници
+- Креирање custom настан
+- Автоматско генерирање распоред за полевање
+- Приказ на настани по датум
+- Интеграција со TableCalendar
+
+## Push нотификации
+- Чување на FCM токен во Firestore
+- Поддршка за:
+    - Foreground пораки
+    - Background пораки
+    - Отворање на апликацијата од нотификација
+
+## Препознавање растение
+- Сликање со камера
+- Избор од галерија
+- Интеграција со PlantNet API
+- Автоматско пребарување според научно име
+
+---
+
+#  Користени технологии
+
+- Flutter
+- Dart
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Messaging
+- REST API
+- PlantNet API
+- TableCalendar
+- Image Picker
+- HTTP package
+
+
+# Firebase структура
+
+users  
+└── {uid}  
+├── fcmToken  
+├── favorites  
+│     └── {plantId}  
+└── events  
+└── {eventId}
+
+
+#  Инсталација и стартување
+
+1. Клонирај го проектот:
+   git clone https://github.com/your-username/floramate.git  
+   cd floramate
+
+2. Инсталирај dependencies:
+   flutter pub get
+
+3. Конфигурирај Firebase
+
+4. Стартувај ја апликацијата:
+   flutter run
+
+# API
+
+Base URL:
+https://plants-api-production-2df5.up.railway.app
+
+Endpoints:
+- /plants
+- /plants/{id}
+- /categories
+
+
+#  Заклучок
+
+FloraMate е целосно функционална мобилна апликација за управување со растенија која комбинира Flutter frontend, Firebase backend и REST API интеграција.
+
+Апликацијата е наменета за сите љубители на растенија кои сакаат подобро да се грижат за своите растенија и да имаат организиран систем за потсетници.
+
+
+
