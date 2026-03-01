@@ -85,7 +85,7 @@ users
 #  Инсталација и стартување
 
 1. Клонирај го проектот:
-   git clone https://github.com/your-username/floramate.git  
+   git clone https://github.com/angi45/floramate.git  
    cd floramate
 
 2. Инсталирај dependencies:
